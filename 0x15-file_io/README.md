@@ -1,0 +1,1 @@
+File handling in C refers to the process of working with files in the C-Programming language. It involves performing various operations such as Creating, opening, reading, writing and closing files. These functions are declared in the <studio.h> header file. 
