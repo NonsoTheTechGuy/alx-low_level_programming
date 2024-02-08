@@ -1,0 +1,2 @@
+Bit manipulation is the act of algorithmically manipulating bits or other pieces of data shorter than a word. Computer programming tasks that require bit manipulation include low-level device control, error detection and correction algorithms, data compression, encryption algorithms, and optimization.
+It shifts the bits of the first operand to the left by the number of places specified in the second operand. This is actually multiplying a number by 2 raised to the power of shift counts.
