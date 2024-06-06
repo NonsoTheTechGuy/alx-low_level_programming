@@ -339,12 +339,12 @@ Requirements:
    - `fclean`: deletes all Emacs and Vim temporary files, the executable, and the object files
    - `re`: forces recompilation of all source files
 - variables: `CC`, `SRC`, `OBJ`, `NAME`, `RM`, `CFLAGS`
-`CC`: the compiler to be used
-`SRC`: the `.c` files
-`OBJ`: the `.o` files
-`NAME`: the name of the executable
-`RM`: the program to delete files
-`CFLAGS`: your favorite compiler flags: `-Wall -Werror -Wextra -pedantic`
+   - `CC`: the compiler to be used
+   - `SRC`: the `.c` files
+   - `OBJ`: the `.o` files
+   - `NAME`: the name of the executable
+   - `RM`: the program to delete files
+   - `CFLAGS`: your favorite compiler flags: `-Wall -Werror -Wextra -pedantic`
 - The `all` rule should recompile only the updated source files
 - The `clean`, `oclean`, `fclean`, `re` rules should never fail
 - You are not allowed to have a list of all the `.o` files
