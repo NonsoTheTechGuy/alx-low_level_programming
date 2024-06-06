@@ -1,68 +1,57 @@
+# 0x1C. C - Makefiles
+`## C`
 
-Curriculum
-SE Foundations
-Average: 78.27%
-0x1C. C - Makefiles
-C
- Weight: 1
- Ongoing second chance project - started May 29, 2024 6:00 AM, must end by Jun 7, 2024 6:00 AM
- An auto review will be launched at the deadline
-In a nutshell…
-Auto QA review: 0.0/52 mandatory & 0.0/13 optional
-Altogether:  0.0%
-Mandatory: 0.0%
-Optional: 0.0%
-Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
+ ![image](https://github.com/NonsoTheTechGuy/alx-low_level_programming/assets/92136146/5a6b703b-5bc1-4646-8daf-dd28fca5cd74)
 
 
+# Resources
+## Read or watch:
+
+- [What is a makefile and how does it work](https://intranet.alxswe.com/rltoken/pWZA00v30Bk4bNIv9atGeg)
+- [Installing the make utility](https://intranet.alxswe.com/rltoken/1AUviCUw3TrznESzWbrKAQ)
+- [make-official documentation](https://intranet.alxswe.com/rltoken/vQFeXLq1izNua2z2dVl5Yg)
+- [More about Makefile](https://intranet.alxswe.com/rltoken/moIpBFMN3sJcVMNn5VIFlA)
 
 
-Resources
-Read or watch:
+## Learning Objectives
+At the end of this project, you are expected to be able to [explain to anyone](https://intranet.alxswe.com/rltoken/u_RzOFqA4lSt5AdGRAfQ_w), `without the help of Google`:
 
-What is a makefile and how does it work
-Installing the make utility
-make-official documentation
-More about Makefile
-Learning Objectives
-At the end of this project, you are expected to be able to explain to anyone, without the help of Google:
+## General
+- What are `make`, Makefiles
+- When, why and how to use Makefiles
+- What are rules and how to set and use them
+- What are explicit and implicit rules
+- What are the most common / useful rules
+- What are variables and how to set and use them
 
-General
-What are make, Makefiles
-When, why and how to use Makefiles
-What are rules and how to set and use them
-What are explicit and implicit rules
-What are the most common / useful rules
-What are variables and how to set and use them
-Copyright - Plagiarism
-You are tasked to come up with solutions for the tasks below yourself to meet with the above learning objectives.
-You will not be able to meet the objectives of this or any following project by copying and pasting someone else’s work.
-You are not allowed to publish any content of this project.
-Any form of plagiarism is strictly forbidden and will result in removal from the program.
-Requirements
-General
-Allowed editors: vi, vim, emacs
-OS: Ubuntu 20.04 LTS
-Version of gcc: 9.3.0
-Version of make: GNU Make 4.2.1
-All your files should end with a new line
-A README.md file, at the root of the folder of the project, is mandatory
-More Info
-Files
-In the following tasks, we are going to use these files. We want to compile these only.
+## Requirements
+## General
+- Allowed editors: `vi`, `vim`, `emacs`
+- OS: Ubuntu 20.04 LTS
+- Version of `gcc`: 9.3.0
+- Version of `make`: GNU Make 4.2.1
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
 
-Tasks
-0. make -f 0-Makefile
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+## More Info
+### Files
+
+In the following tasks, we are going to use [these files](https://github.com/alx-tools/0x1B.c). We want to compile these only.
+
+## Tasks
+## 0. make -f 0-Makefile
+
+`mandatory`
+
 Create your first Makefile.
 
 Requirements:
 
-name of the executable: school
-rules: all
-The all rule builds your executable
-variables: none
+- name of the executable: `school`
+   - rules: `all`
+    - The `all` rule builds your executable
+- variables: none
+```
 julien@ubuntu:~/0x1C. Makefiles$ make -f 0-Makefile 
 gcc main.c school.c -o school
 julien@ubuntu:~/0x1C. Makefiles$ ./school 
@@ -91,16 +80,21 @@ j#0000000000000@@+wgdA]+J00000000000000
 j#0000000000000k?qwgdC=]4#0000000000000
 j#00000000000000w]+]++qw#00000000000000
 "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-julien@ubuntu:~/0x1C. Makefiles$ 
-Repo:
+julien@ubuntu:~/0x1C. Makefiles$
+```
+---
 
-GitHub repository: alx-low_level_programming
-Directory: 0x1C-makefiles
-File: 0-Makefile
-   
-1. make -f 1-Makefile
-mandatory
-Score: 0.0% (Checks completed: 0.0%)
+## Repo:
+
+- GitHub repository: `alx-low_level_programming`
+- Directory: `0x1C-makefiles`
+- File: `0-Makefile`   
+
+
+## 1. make -f 1-Makefile
+
+`mandatory`
+
 Requirements:
 
 name of the executable: school
