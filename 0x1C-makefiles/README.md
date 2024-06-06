@@ -1,4 +1,4 @@
-# 0x1C. C - Makefiles
+# Project - 0x1C. C - Makefiles
 `## C`
 
  ![image](https://github.com/NonsoTheTechGuy/alx-low_level_programming/assets/92136146/5a6b703b-5bc1-4646-8daf-dd28fca5cd74)
