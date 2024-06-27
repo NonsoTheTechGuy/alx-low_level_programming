@@ -199,9 +199,10 @@ julien@ubuntu:~/0x01$
 - Directory: `0x01-variables_if_else_while`
 - File: `3-print_alphabets.c`
    
-4. When I was having that alphabet soup, I never thought that it would pay off
-mandatory
-Score: 65.0% (Checks completed: 100.0%)
+## 4. When I was having that alphabet soup, I never thought that it would pay off
+
+`mandatory`
+ 
 Write a program that prints the alphabet in lowercase, followed by a new line.
 
 - Print all the letters except `q` and `e`
@@ -312,7 +313,7 @@ julien@ubuntu:~/0x01$
 ## 9. Patience, persistence and perspiration make an unbeatable combination for success
 
 `mandatory`
-`
+
 Write a program that prints all possible combinations of single-digit numbers.
 
 - Numbers must be separated by `,`, followed by a space
