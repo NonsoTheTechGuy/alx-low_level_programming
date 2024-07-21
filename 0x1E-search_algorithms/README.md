@@ -1,5 +1,4 @@
-# Curriculum
-## SE Foundations
+# `Curriculum` `SE Foundations`
 # PROJECT - 0x1E. C - Search Algorithms
 ## `C` `Algorithm`
  
